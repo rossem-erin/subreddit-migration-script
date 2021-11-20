@@ -21,7 +21,7 @@ Create a multireddit of all the subreddits you're subscribed to.
 1. Log in to your new account
 2. Go to the multireddit link you created in the previous step
 3. Open the browser's console (Ctrl+Shift+J on Windows, Cmd+Option+J on Mac)
-4. Paste the code from [subscribe.js](subscribe.js) and press Enter
+4. Paste the code from [subscribe.js](subscribe.js) into the console. There are comments in the code to explain exactly what the script does, make sure you understand them and agree before your **press enter**.
 5. Leave the tab open until the console logs 'Subscribed to X subreddits!' (where X will be replaced with the subreddit count)
 6. Refresh the page. All subreddits in the sidebar should now show a red "leave" button. If some are still green, repeat steps 4-6 until all subreddits are subscribed to.
 
