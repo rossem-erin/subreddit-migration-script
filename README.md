@@ -16,7 +16,11 @@ Create a multireddit all the subreddits you're subscribed to.
 
 ### To import your subreddits
 
-* Log out of your old account
-* Log in to your new account
-* Make sure you have the browser's console open again
-* Paste the code from [import.js](import.js) and press Enter
+1. Log out of your old account
+2. Log in to your new account
+3. Open the browser's console (Ctrl+Shift+J on Windows, Cmd+Option+J on Mac)
+4. Paste the code from [subscribe.js](subscribe.js) and press Enter
+5. Leave the tab open until the console logs 'Subscribed to X subreddits!' (where X will be replaced with the subreddit count)
+6. Refresh the page. All subreddits in the sidebar should now show a red "leave" button. If some are still green, repeat steps 4-6 until all subreddits are subscribes to.
+
+It will take one second per subreddit to subscribe, otherwise reddit will think the script goes too fast and it doesn't work.
