@@ -1,16 +1,18 @@
 # Autocremate
-Easily switch to a new Reddit account by migrating your subreddits in one go
+Easily switch to a new Reddit account by migrating your subreddits in one go.
+
+Right now it's just a script you have to copy into your browser manually. I might turn this into a browser extension, please file a feature request under this repository's "Issues" section if you'd be interested in that.
 
 ## Instructions
 
 ### To export your subreddits
+Create a multireddit all the subreddits you're subscribed to.
 
-* Go to https://www.reddit.com/subreddits
 * Make sure you're logged in to your *old* account
-* Open the browser's console (Ctrl+Shift+J on Windows, Cmd+Option+J on Mac)
-* Paste the code from [export.js](export.js) into the console and press Enter
-
-A list of your subreddits will be exported to your local storage for later use.
+* Go to https://old.reddit.com/subreddits (Note the old.reddit subdomain, www.reddit gives an incomplete multireddit)
+* On the top of the right side there is a list of all your subreddits. Click the link at the top named "multireddit of your subscriptions"
+* You are now sent to a multireddit that contains all your subscribed subreddits.
+* Copy the address for later use
 
 ### To import your subreddits
 
