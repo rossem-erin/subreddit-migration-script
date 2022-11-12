@@ -10,7 +10,7 @@ function subscribeNext() {
     // If a join button was found, proceed to the following instructions
     if (firstJoinButton) {
         // Click on the join button. This turns it into a "leave" button so it won't be found again next round
-        nextSub.click();
+        firstJoinButton.click();
 
          // Add 1 to the counter of subscribed subreddits
         count++;
